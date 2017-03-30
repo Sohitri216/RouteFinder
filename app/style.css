@@ -1,0 +1,53 @@
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.map-container {
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.current-location {
+    position: absolute !important;
+    top: 85px !important;
+    left: 0px !important;
+}
+
+.dest-location {
+    position: absolute !important;
+    top: 231px !important;
+    left: 0px !important;
+}
+
+.current-location input {
+    width: 130px;
+}
+
+.dest-location input {
+    width: 130px;
+}
+
+.calculate-price {
+    position: absolute;
+    top: 276px;
+}
+
+.trip-end-time {
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+
+#trip_fare {
+    position: absolute;
+    top: 100px;
+}
+
+.go-back {
+    display: none;
+    position: absolute;
+    top: 292px;
+}

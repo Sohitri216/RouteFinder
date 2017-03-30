@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fare Estimator</title>
+    <link rel="stylesheet" type="text/css" href="css/vendor.min.css">
+</head>
+
+<body>
+    <div class="map-container">
+        <div id="map"></div>
+        <div class="current-location" id="pac_source">
+            <input type="text" id="pac_source_input" class="current-location" placeholder="Current Location">
+        </div>
+        <div class="dest-location" id="pac-card">
+            <input type="text" id="pac-input" placeholder="Destination Location">
+        </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDs3sXMRCa3qCt8kjDysg2TOwjFUhRuqx8&libraries=places&callback=initMap" async defer></script>
+    <script type="text/javascript" src="js/app.min.js"></script>
+</body>
+
+</html>

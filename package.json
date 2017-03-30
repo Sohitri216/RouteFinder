@@ -1,0 +1,29 @@
+{
+  "name": "routefinder",
+  "version": "1.0.0",
+  "description": "finds routes two two points",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp build",
+    "watch": "gulp"
+  },
+  "author": "Sohitri Sen",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2"
+  },
+  "dependencies": {
+    "cssmin": "^0.4.3",
+    "stringify": "^5.1.0",
+    "uglify": "^0.1.5"
+  }
+}
